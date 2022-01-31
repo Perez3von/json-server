@@ -1,0 +1,17 @@
+.grid-container{
+
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    background-color: azure;
+
+
+}
+body{
+    background-color: rgb(200, 200, 200);
+    height: 100%;
+}
+
+li{
+    list-style-type: none;
+}
